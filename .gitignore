@@ -1,0 +1,43 @@
+# Rust and build output
+/target/
+**/*.rs.bk
+*.exe
+*.pdb
+*.dll
+*.lib
+*.exp
+
+# Test output and external corpus
+/tests/out/
+/tests/corpus_ext/
+
+# Local files
+.cargo/config.toml
+/scratch/
+/private/
+*.local.*
+/*.docx
+/*.pdf
+
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+
+# Logs, temporary files and dumps
+*.log
+*.tmp
+*.bak
+*.dmp
+
+# Operating system and editors
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
